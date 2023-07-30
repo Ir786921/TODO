@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-fluid
+{
+    margin: 0%;
+    padding: 0%;
+}
+.First
+{
+   display: inline-block;
+  
+   width: min(19%);
+  
+   background-color: #F1F5F9;
+   overflow: auto;
+}
+.Second
+{
+    display: inline-block;
+    width: min(62%);
+    
+    
+    background-color:#E2E8F0;
+    overflow:auto;
+
+}
+.Third
+{
+    /* display: flex;
+    flex-direction: column; */
+    width: min(19%);
+   
+    background-color: #F1F5F9;
+    align-items: center;
+    overflow: auto;
+
+}
+.heading
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+.button
+{
+   text-align: center;
+}
+.today:hover
+{
+    background-color:#157347 ;
+    cursor: pointer;
+}
+.today
+{
+    padding: 8px 12px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.today>a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    
+}
+.today>a:hover
+{
+    color:red
+}
+.profile
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: " ";
+    width: min(100px,80px);
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    height: min(100px,80px);
+    margin: auto;
+
+    
+}
+
+.counter
+{
+    
+    float: right;
+}
+.progress
+{
+    width: min(100%);
+    height: min(15px);
+}
+.todayTask
+{
+ 
+    width: min(100%,280px);
+    height: min(100vh,40vh);
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+#search
+{
+    width: min(250px);
+    height: min(45px);
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    border: 1px solid transparent;
+}
+
+.bi-search
+{
+    font-size: min(18px);
+}
+#submit
+{
+    height: min(45px);
+    border-radius: 5px;
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 4px 6px;
+    
+
+}
+.form:hover
+{
+    border: 3px solid green;
+}
+.form
+{
+    padding: 6px 10px;
+}
+.modal-input
+{
+    width: min(450px);
+    height: min(50px);
+    border-radius: 8px;
+    border: transparent;
+    background-color: #E2E8F0;
+    margin-bottom: 2rem;
+}
+.modal-input:hover
+{
+    border: 2px solid #7531F9;
+}
+.modal-input-area
+{
+    width: min(450px);
+    height: min(65px);
+    border-radius: 8px;
+    border: transparent;
+    background-color: #E2E8F0;
+    margin-bottom: 2rem;
+}
+.modal-input-area:hover
+{
+    border: 2px solid #7531F9;
+}
+.modelButton
+{
+    width: min(450px);
+    height: min(45px);
+    border: transparent;
+    background-color: #7531F9;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-bottom: 2rem;
+}
+.view
+{
+    display: flex;
+    justify-content: space-between;
+}
+.list
+{
+    border: transparent;
+    background: none;
+}
+.bi-list-ul
+{
+    font-size: min(30px);
+}
+.bi-list-ul:hover
+{
+    color: #7531F9;
+}
+.bi-grid
+{
+    font-size: min(30px);
+}
+.bi-grid:hover
+{
+    color: #7531F9;
+}
+.sort
+{
+    padding: 10px 12px;
+    background-color:#F1F5F9;
+    border-radius: 8px;
+}
+.sort:hover
+{
+    border: 2px solid #7531F9;
+    cursor: pointer;
+}
+.firstTask
+{
+    border: 2px solid black;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #157347;
+}
+.desc
+{
+    display: inline-block;
+}
+.functionalities
+{
+    float: right;
+}
+.bi-star
+{
+    font-size: min(25px);
+    margin-left: 1rem;
+  
+}
+.bi-star2
+{
+
+    font-size: min(25px);
+    margin-left: 1rem;
+    color: red;
+}
+.bi-trash3
+{
+    font-size: min(25px);
+    margin-left: 1rem;
+}
+.bi-three-dots-vertical
+{
+    font-size: min(25px);
+    margin-left: 1rem;
+}
+.compleated
+{
+    background-color: burlywood;
+}
+.star
+{
+    background: none;
+    border: transparent;
+    
+}
+.star2
+{
+    
+    background: none;
+    border: transparent;
+    color: red;
+
+}
+
+
